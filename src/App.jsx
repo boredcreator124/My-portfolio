@@ -166,9 +166,9 @@ function App() {
             </p>
 
             <div className="flex flex-col items-center space-y-4 mt-6">
-              <button className="bg-[#ED2279] text-black px-6 py-2 rounded-full font-bold hover:cursor-pointer">
+              <a href="/CV.pdf" download className="bg-[#ED2279] text-black px-6 py-2 rounded-full font-bold hover:cursor-pointer inline-block">
                 Download Now
-              </button>
+              </a>
 
               <div className="flex space-x-6 items-center mt-2">
                 <a href="https://github.com/boredcreator124" target="_blank" rel="noopener noreferrer" className="inline-block">
